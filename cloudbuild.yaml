@@ -1,0 +1,6 @@
+timeout: 3600s
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: ['./build.sh']
+tags: ['cloud-builders-community']
